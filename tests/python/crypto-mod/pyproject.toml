@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "crypto-mod"
+version = "0.1.0"
+description = ""
+authors = ["Theofilos Petsios <theofilos@crashoverride.com>"]
+readme = "README.md"
+packages = [{include = "crypto_mod"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pycryptodome = "^3.15.0"
+
+
+[tool.poetry.group.vim.dependencies]
+neovim = "^0.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.971"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
