@@ -1,0 +1,11 @@
+---
+library: false
+name: crashappsec/nomod
+version: 0.0.1
+description: A query pack detecting calls to hotspots that should not be getting modified
+  without a review
+license: MIT
+buildMetadata:
+  cliVersion: 2.10.5
+dependencies:
+  codeql/python-all: '*'
