@@ -1,6 +1,6 @@
 # About
 
-This repository is a collection of CodeQL packs and other static analyeses with the overarching goal of capturing and enforcing business requirements via static analysis.
+This repository is a collection of CodeQL packs and other static analyses with the overarching goal of capturing and enforcing business requirements via static analysis.
 
 Contrary to existing static analysis frameworks, which traditionally have been focusing on bug finding, type checking/linting, and compliance enforcement, codeography's goal
 is to help teams shed light on their application ecosystem and enable them to
